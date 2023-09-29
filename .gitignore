@@ -39,3 +39,6 @@ next-env.d.ts
 
 # Local Files
 loc_*
+
+# Environment Files
+*.env
