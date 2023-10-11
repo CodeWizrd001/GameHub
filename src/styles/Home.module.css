@@ -56,7 +56,7 @@
 
 .card span {
   display: inline-block;
-  transition: transform 200ms;
+  transition: transform 300ms;
 }
 
 .card h2 {
@@ -110,7 +110,7 @@
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
+    background: rgba(var(--card-rgb), 0.3);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
@@ -203,7 +203,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
